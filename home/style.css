@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*----STYLE----*/
+
+body{
+    font: 16px/28px arial, sans-serif;
+    background-image: url(../image/homebg.png);
+    color: #333333;
+    height:3000px;
+}
+
+.header{
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.content{
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    background-color: #BFBFBF;
+    box-sizing: border-box;
+}
+
+.heroImg{
+    margin-top: 80px;
+    height: 820px;
+    width: 100%;
+    background-image: url(../image/homeHero.jpg);
+    background-size: cover;
+    background-position: 0-500px;
+    border: 10px solid #BFBFBF;
+    box-sizing: border-box;
+}
+
+.pelapisheroImg{
+    margin-top: 80px;
+    height: 820px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+    background-color: lightskyblue;
+    top: 0;
+    right: 0;
+    border: 10px solid #BFBFBF;
+    box-sizing: border-box;
+}
+
+.playGame{
+    background-color: blue;
+}
+
+/*.playGame h1{
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+}
+*/
+.topbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: lightgreen;
+    display: flex;
+    line-height: 80px;
+    justify-content: space-evenly;
+    z-index: 3;
+}
+
+.topbar a{
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.topbar a:hover{
+    background-color: lightskyblue;
+}
+
+.tempat h1 {
+    font-size: 200px;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    left: 220px;
+    z-index: 2;
+    color: #000;
+}
+
+.tempat img {
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    z-index: 2;
+}
